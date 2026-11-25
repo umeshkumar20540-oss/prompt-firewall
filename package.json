@@ -1,0 +1,16 @@
+{
+  "name": "prompt-firewall",
+  "version": "1.0.0",
+  "description": "Local reversible secret & PII firewall proxy + MCP server for AI coding agents and LLMs.",
+  "main": "src/scanner.js",
+  "bin": {
+    "prompt-firewall": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js start",
+    "mcp": "node bin/cli.js mcp",
+    "test": "node test/run.js"
+  },
+  "keywords": ["ai", "llm", "security", "privacy", "mcp", "firewall", "pii", "secrets"],
+  "license": "MIT"
+}
